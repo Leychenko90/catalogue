@@ -14,5 +14,5 @@
 @stop
 
 @section('content')
-	Use FAR, Luke!
+	
 @stop

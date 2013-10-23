@@ -1,5 +1,6 @@
 <?php
 
 Route::get('/', 'FrontController@index');
-Route::get('add', 'EntityController@addCar');
-Route::post('/car/_add', 'EntityController@_add');
+Route::get('add', 'CarController@addCar');
+Route::post('/car/_add', 'CarController@_add');
+Route::get('/config/list', 'ConfigController@view');
