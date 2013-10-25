@@ -1,0 +1,25 @@
+.control-group{
+	margin:5px 0px;
+}
+label{
+	display: inline-block;
+	max-width: 150px;
+	min-width: 140px;
+}
+input[type='text'] {
+	height: 24px;
+	color:purple;
+	border:1px solid purple;
+}
+
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+button,
+.btn {
+	height: 24px;
+	color:white;
+	background-color: purple;
+	border:none;
+	margin:5px;
+}

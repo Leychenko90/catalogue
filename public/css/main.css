@@ -1,0 +1,14 @@
+*{
+	font-family:Tahoma;
+	font-size: 12px;
+}
+.footer,
+.header {
+	line-height: 30px;
+	text-align: center;
+	background-color: purple;
+	color:white;
+}
+.content{
+	padding:5px;
+}
